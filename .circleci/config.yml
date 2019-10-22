@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: 861281107445.dkr.ecr.us-west-1.amazonaws.com/circle-docker-base:latest
+      - image: 861281107445.dkr.ecr.us-west-2.amazonaws.com/circle-docker-base:latest
         aws_auth:
           aws_access_key_id: ${AWS_ACCESS_KEY_ID}
           aws_secret_access_key: ${AWS_SECRET_ACCESS_KEY}
